@@ -655,6 +655,7 @@ data object EnWordList : WordList {
         is Building.FishPond -> "Fish Pond"
         Building.SimpleBuilding.SlimeHutch -> "Slime Hutch"
         Building.SimpleBuilding.ShippingBin -> "Shipping Bin"
+        Building.SimpleBuilding.PetBowl -> "Pet Bowl"
 
 
         // Crops

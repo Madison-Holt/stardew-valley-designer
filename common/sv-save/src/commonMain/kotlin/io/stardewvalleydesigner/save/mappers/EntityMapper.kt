@@ -160,6 +160,7 @@ internal fun Building.toPlacedEntityOrNull(): PlacedEntity<*>? {
         "Fish Pond" -> BuildingEntity.FishPond()
         "Slime Hutch" -> BuildingEntity.SimpleBuilding.SlimeHutch
         "Shipping Bin" -> BuildingEntity.SimpleBuilding.ShippingBin
+        "Pet Bowl" -> BuildingEntity.SimpleBuilding.PetBowl
 
         else -> null
     }

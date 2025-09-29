@@ -158,6 +158,7 @@ object ImageResourcesProvider {
         SpritePage.FishPond to rememberImageResource("buildings/fish-pond.png"),
         SpritePage.SlimeHutch to rememberImageResource("buildings/slime-hutch.png"),
         SpritePage.ShippingBin to rememberImageResource("buildings/shipping-bin.png"),
+        SpritePage.PetBowl to rememberImageResource("buildings/pet-bowl.png"),
     )
 
 

@@ -61,6 +61,7 @@ enum class SpritePage(val width: Int, val height: Int, val grain: Rect = rectOf(
     FishPond(width = 80, height = 112),
     SlimeHutch(width = 112, height = 112),
     ShippingBin(width = 32, height = 32),
+    PetBowl(width = 32, height = 32),
     ;
 
 

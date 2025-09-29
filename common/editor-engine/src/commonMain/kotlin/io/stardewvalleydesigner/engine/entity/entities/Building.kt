@@ -76,6 +76,7 @@ sealed interface Building : Entity<BuildingType> {
         Well(size = rectOf(w = 3, h = 3)),
         SlimeHutch(size = rectOf(w = 7, h = 4)),
         ShippingBin(size = rectOf(w = 2, h = 1)),
+        PetBowl(size = rectOf(w = 2, h = 2)),
     }
 
     sealed class ColoredFarmBuilding(override val size: Rect) : Building, TripleColoredFarmBuilding()

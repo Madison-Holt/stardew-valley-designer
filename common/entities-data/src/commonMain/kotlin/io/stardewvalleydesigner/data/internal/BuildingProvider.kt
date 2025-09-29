@@ -92,6 +92,7 @@ internal fun building(qe: QualifiedEntity<Building>): QualifiedEntityData {
         is FishPond -> building(EntityPage.FishPond, SpritePage.FishPond) // TODO : Colors and other variations
         SlimeHutch -> building(EntityPage.SlimeHutch, SpritePage.SlimeHutch)
         ShippingBin -> building(EntityPage.ShippingBin, SpritePage.ShippingBin)
+        PetBowl -> building(EntityPage.PetBowl, SpritePage.PetBowl)
     }
 }
 

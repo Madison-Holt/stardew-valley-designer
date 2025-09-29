@@ -53,4 +53,5 @@ enum class EntityPage {
     FishPond,
     SlimeHutch,
     ShippingBin,
+    PetBowl,
 }
